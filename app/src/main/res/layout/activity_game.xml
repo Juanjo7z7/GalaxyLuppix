@@ -58,7 +58,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
-            android:text="PERDISTE"
+            android:text="game over"
             android:textColor="#ff0"
             android:textSize="50sp" />
 
@@ -79,7 +79,7 @@
             android:layout_below="@+id/txt_score_over"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="50dp"
-            android:text="Mejor puntaje: "
+            android:text="best 0"
             android:textSize="20sp" />
 
         <TextView
@@ -88,7 +88,7 @@
             android:layout_below="@+id/txt_game_over"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="20dp"
-            android:text="Toca la pantalla para continuar "
+            android:text="Toucher l'écran pour continuer"
             android:textColor="#673AB7"
             android:textSize="20sp" />
 

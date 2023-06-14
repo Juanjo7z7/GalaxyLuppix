@@ -28,7 +28,6 @@ android {
         targetCompatibility JavaVersion.VERSION_1_8
     }
     useLibrary 'org.apache.http.legacy'
-    namespace 'com.example.test'
 }
 
 dependencies {
