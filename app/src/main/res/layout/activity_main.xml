@@ -58,16 +58,39 @@
 
         <Button
             android:id="@+id/btn_submit"
-            android:layout_width="wrap_content"
-            android:layout_height="60sp"
-            android:text="Jugar" />
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Jugar"
+            android:background="@color/teal_700"
+            android:textColor="@color/purple_500"
+            android:layout_marginStart="100dp"
+            android:layout_marginEnd="100dp"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="sans-serif-black"/>
 
         <Button
             android:id="@+id/leader_board"
-            android:layout_width="wrap_content"
-            android:layout_height="60sp"
-            android:text="Tabla" />
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Tabla"
+            android:background="@color/teal_700"
+            android:textColor="@color/purple_500"
+            android:layout_marginStart="100dp"
+            android:layout_marginEnd="100dp"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="sans-serif-black"/>
+
+
+
     </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/galaxy_luppyx_1"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="86dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
