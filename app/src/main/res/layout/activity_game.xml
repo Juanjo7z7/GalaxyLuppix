@@ -79,7 +79,7 @@
             android:layout_below="@+id/txt_score_over"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="50dp"
-            android:text="Mejor puntacion: "
+            android:text="Mejor puntaje: "
             android:textSize="20sp" />
 
         <TextView
