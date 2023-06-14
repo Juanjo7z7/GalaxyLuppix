@@ -125,7 +125,7 @@ public class GameView extends View {
                 if(bird.getRect().intersect(arrPipes.get(i).getRect())||bird.getY()*bird.getHeight()<0|| bird.getY()>Constants.SCREEN_HEIGHT){
                     Pipes.speed=0;
                     GameActivity.txt_score_over.setText(GameActivity.txt_score.getText());
-                    GameActivity.txt_best_score.setText("best: " +bestscore);
+                    GameActivity.txt_best_score.setText("best: " + bestscore);
                     GameActivity.txt_score.setVisibility(INVISIBLE);
                     GameActivity.rl_game_over.setVisibility(VISIBLE);
 
