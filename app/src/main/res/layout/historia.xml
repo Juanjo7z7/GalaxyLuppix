@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="end"
+            android:src="@drawable/galaxy_luppyx_1" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+
+        <TextView
+            android:layout_margin="18dp"
+            android:padding="20dp"
+            android:background="@color/teal_700"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Luppyx, es un alien proveniente del planeta Kleber 7b.
+        En una expedición por el universo con otros seres de su especie, Luppyx se extravío a los
+        demás miembros de la expedición porque decidió mirar con detalle algo que le llamó
+        la atención.
+        En un momento, una fuerza extraña lo arrastró hacia un lugar turbio, lleno de obstáculos,
+        asteroides y demás.
+        Ahora Luppyx, deberá esquivar cualquier cosa que se le atraviese. De no ser así, el y su
+        nave tendrán un desafortunado desenlace.
+        ¡Vamos, ayuda a Luppyx a no chocar y salva su vida!"
+            android:textColor="@color/purple_500"
+            android:textSize="16dp"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="70dp" />
+
+        <Button
+            android:background="@color/purple_200"
+            android:text="¿Como jugar?"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:layout_marginEnd="100dp"
+            android:layout_marginBottom="20dp"
+            android:layout_gravity="end"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
