@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <LinearLayout
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -29,42 +29,8 @@
             android:drawablePadding="12dp"
             android:text="Instrucciones del juego"
             android:textColor="@color/white"
-            android:textSize="35dp"
-            android:fontFamily="sans-serif-condensed"
-            android:layout_margin="20dp"/>
-
-        <TextView
-            android:id="@+id/textView2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Controles:
-
-
-
-            Toque en la pantalla: Haga un toque en la pantalla para hacer que el alienígena suba.
-
-
-
-            Suelte la pantalla: Suelte la pantalla para hacer que el alienígena descienda.
-            Obstáculos: En su camino, el alienígena se encontrará con rayos láser que deberá evitar. "
-            android:textColor="@color/purple_200"
-            android:fontFamily="sans-serif-condensed"
             android:textSize="20dp"
-            android:background="@color/teal_700"
-            android:padding="20dp"
-            android:layout_margin="25dp"/>
-
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="60dp" />
-
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="¡A jugar!"
-            android:background="@color/purple_200"
-            android:layout_marginStart="100dp"
-            android:layout_marginEnd="100dp" />
+            android:layout_margin="20dp"/>
 
     </LinearLayout>
 
