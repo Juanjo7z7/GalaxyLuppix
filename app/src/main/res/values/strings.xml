@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Galaxy Luppix</string>
     <string name="number">1</string>
+    <string name="hint_usuario">Su usuario</string>
 </resources>
