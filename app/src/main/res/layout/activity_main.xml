@@ -84,13 +84,4 @@
 
     </LinearLayout>
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="120dp"
-        android:layout_height="120dp"
-        android:src="@drawable/galaxy_luppyx_1"
-        tools:layout_editor_absoluteX="145dp"
-        tools:layout_editor_absoluteY="86dp" />
-
-
 </androidx.constraintlayout.widget.ConstraintLayout>
