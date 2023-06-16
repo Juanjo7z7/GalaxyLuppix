@@ -90,7 +90,7 @@ public class GameView extends View {
                 this.arrPipes.add(new Pipes ( Constants.SCREEN_WIDTH+i*((Constants.SCREEN_WIDTH+200*Constants.SCREEN_WIDTH/1000)/(sumpipe/2)),
                         0, 200*Constants.SCREEN_WIDTH/1000, Constants.SCREEN_HEIGHT/2));
 
-                this.arrPipes.get(this.arrPipes.size()-1).setBm(BitmapFactory.decodeResource(this.getResources(),R.drawable.pipe2));
+                this.arrPipes.get(this.arrPipes.size()-1).setBm(BitmapFactory.decodeResource(this.getResources(),R.drawable.pipe1));
                 this.arrPipes.get(this.arrPipes.size()-1).randomY();
             }else{
                 this.arrPipes.add(new Pipes(this.arrPipes.get(i-sumpipe/2).getX(), this.arrPipes.get(i-sumpipe/2).getY()
