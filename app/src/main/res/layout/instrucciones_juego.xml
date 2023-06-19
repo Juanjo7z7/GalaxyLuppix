@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -14,7 +15,8 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_gravity="end"
-            android:src="@drawable/background" />
+            android:src="@drawable/background"
+            app:srcCompat="@drawable/galaxy_luppyx_1" />
 
         <TextView
             android:id="@+id/textView"
@@ -31,6 +33,51 @@
             android:textColor="@color/white"
             android:textSize="20dp"
             android:layout_margin="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Objetivo del juego: El objetivo del juego es guiar al alienígena a través del universo evitando los rayos láser y alcanzando la mayor puntuación posible."
+            android:background="@color/teal_200"
+            android:textColor="@color/purple_200"
+            android:fontFamily="sans-serif-black"
+            android:layout_margin="18dp"
+            android:padding="15dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Controles:
+            Toque en la pantalla: Haga un toque en la pantalla para hacer que el alienígena suba.
+            Suelte la pantalla: Suelte la pantalla para hacer que el alienígena descienda."
+            android:background="@color/teal_200"
+            android:textColor="@color/purple_200"
+            android:fontFamily="sans-serif-black"
+            android:layout_margin="18dp"
+            android:padding="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Puntuación:
+            La puntuación se calcula en función de la distancia recorrida por el alienígena y los objetos esquivados. Cuanto más tiempo logres mantener al alienígena sin chocar, mayor será tu puntuación."
+            android:background="@color/teal_200"
+            android:textColor="@color/purple_200"
+            android:fontFamily="sans-serif-black"
+            android:layout_margin="18dp"
+            android:padding="15dp"/>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="¡A jugar!"
+            android:background="@color/purple_200"
+            android:layout_marginStart="100dp"
+            android:layout_marginEnd="100dp"
+            android:layout_marginBottom="20dp"/>
+
 
     </LinearLayout>
 
